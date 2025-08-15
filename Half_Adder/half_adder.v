@@ -3,7 +3,7 @@
 module half_adder(sum, carry, a ,b);
  
      input a, b;
-     output reg sum, carry;
+     output sum, carry;
      
     //dataflow
     sum = a ^ b;
